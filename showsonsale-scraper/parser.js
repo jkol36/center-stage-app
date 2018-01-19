@@ -194,7 +194,8 @@ export const parsePresalePage = page => {
             ticketLink: url,
             provider: 'ShowsOnSale',
             onSaleDate: presaleDate,
-            onSaleTime: presaleTime
+            onSaleTime: presaleTime,
+            percent: Math.floor(Math.random() * 100)
         })
         // console.log({presaleDate}, {eventName}, {eventDate}, {password}, {url}, {provider}, {venueName}, {venueUrl}, {city}, {state})
     })

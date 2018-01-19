@@ -28,7 +28,7 @@ export const parseSalesPage = html => {
             provider: 'ticketonsalelist',
             onSaleDate: moment().format('MM/DD/YY'),
             onSaleTime,
-	    percent:Math.floor(Math.random()*100)
+	          percent:Math.floor(Math.random()*100)
           })
         }
       })
